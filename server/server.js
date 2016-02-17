@@ -14,7 +14,9 @@ const Routes = require('./routes/index');
 
 const app = express();
 const http = require('http').Server(app);
-const server = http.listen(PORT);
+const sticky = require('sticky-session');
+
+sticky.listen(http, PORT);
 
 RoutesConfig.init(app, express);
 DBConfig.init();

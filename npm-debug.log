@@ -1,7 +1,5 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/Cellar/node/5.6.0/bin/node',
-1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'start' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
 2 info using npm@3.7.3
 3 info using node@v5.6.0
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
@@ -9,25 +7,25 @@
 6 silly lifecycle med@0.0.1~prestart: no script for prestart, continuing
 7 info lifecycle med@0.0.1~start: med@0.0.1
 8 verbose lifecycle med@0.0.1~start: unsafe-perm in lifecycle true
-9 verbose lifecycle med@0.0.1~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/nabil/workspace/yo/ng/node_modules/.bin:/usr/local/Cellar/node/5.6.0/bin:/usr/local/heroku/bin:/Users/nabil/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/heroku/bin:/Users/nabil/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nabil/.rvm/bin
-10 verbose lifecycle med@0.0.1~start: CWD: /Users/nabil/workspace/yo/ng
+9 verbose lifecycle med@0.0.1~start: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/nabil/workspace/perso/yo/ng/express_example/node_modules/.bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/nabil/.local/bin:/home/nabil/bin:/home/nabil/.fzf/bin
+10 verbose lifecycle med@0.0.1~start: CWD: /home/nabil/workspace/perso/yo/ng/express_example
 11 silly lifecycle med@0.0.1~start: Args: [ '-c', 'node index' ]
 12 silly lifecycle med@0.0.1~start: Returned: code: 1  signal: null
 13 info lifecycle med@0.0.1~start: Failed to exec start script
 14 verbose stack Error: med@0.0.1 start: `node index`
 14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:239:16)
+14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:239:16)
 14 verbose stack     at emitTwo (events.js:100:13)
 14 verbose stack     at EventEmitter.emit (events.js:185:7)
-14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:24:14)
 14 verbose stack     at emitTwo (events.js:100:13)
 14 verbose stack     at ChildProcess.emit (events.js:185:7)
 14 verbose stack     at maybeClose (internal/child_process.js:827:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
 15 verbose pkgid med@0.0.1
-16 verbose cwd /Users/nabil/workspace/yo/ng
-17 error Darwin 15.3.0
-18 error argv "/usr/local/Cellar/node/5.6.0/bin/node" "/usr/local/bin/npm" "start"
+16 verbose cwd /home/nabil/workspace/perso/yo/ng/express_example
+17 error Linux 4.3.5-300.fc23.x86_64
+18 error argv "/usr/bin/node" "/usr/bin/npm" "start"
 19 error node v5.6.0
 20 error npm  v3.7.3
 21 error code ELIFECYCLE
