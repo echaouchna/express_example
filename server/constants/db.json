@@ -1,0 +1,4 @@
+{
+  "localhost": "mongodb://localhost/my-awesome-app",
+  "docker_mongo": "mongodb://192.168.99.100:32768/my-awesome-app"
+}
